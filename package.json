@@ -1,0 +1,25 @@
+{
+  "name": "violent-cli",
+  "version": "1.0.0",
+  "description": "类似vue-cli一样的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "violent": "bin/violent",
+    "violent-add": "bin/violent-add",
+    "violent-del": "bin/violent-del",
+    "violent-list": "bin/violent-list",
+    "violent-init": "bin/violent-init"
+  },
+  "author": "donymh@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.3",
+    "ora": "^4.0.3"
+  }
+}
